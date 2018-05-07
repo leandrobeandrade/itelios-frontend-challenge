@@ -11,7 +11,7 @@
     1. Rápido desenvolvimento. (jQuery é mais simples de escrever);
     2. Fácil leitura. (jQuery é de fácil compreensão por seus métodos terem nomes auto-descritivos);
     3. Grande flexibilidade para manipular todos os elementos da árvore;
-    4. API completa e com todas as informações da biblioteca contidas no mesmo local e com fácil navegação para consulta
+    4. API completa, com todas as informações da biblioteca contidas no mesmo local e com fácil navegação para consulta
     
 > **Obs:** Sei que perderei vários pontos (**se é que os obtive :**)) da não utilização do Vanilla, mas para mim, tudo que for para ajudar deve ser acrescentado. Os itens acima são apenas colocações descritas por mim, e que jamais serão verdades absolutas no universo do Javascript. 
 
