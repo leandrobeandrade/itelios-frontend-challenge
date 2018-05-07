@@ -28,7 +28,7 @@ $(document).ready(function() {
   			$("#payments1").text(dado[0].data.recommendation[0].productInfo.paymentConditions);
 // prod 1  			
 		 	var nameFull_1 = name_1.substr(0,98);
-  			var nameCut_1 = $("#product1").text(nameFull_1 + " ...");
+  			var nameCut_1 = $("#product1").text(nameFull_1 + " ..."); 
 
 			$("#product2").text(dado[0].data.recommendation[1].name);
 /*  2 */ 	$("strong:eq(2)").text(dado[0].data.recommendation[1].price);
