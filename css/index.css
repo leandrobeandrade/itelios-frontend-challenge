@@ -36,17 +36,17 @@ strong {
 }
 .bullet{
   	border-radius: 50%;
-    height: 12px;
-    width: 12px;
-    background-color: #999;
-    margin-left: 20%;
+    	height: 12px;
+    	width: 12px;
+    	background-color: #999;
+    	margin-left: 20%;
 }
 .ativo {
  	border-radius: 50%;
-    height: 12px;
-    width: 12px;
-    background-color: #000;
-    margin-left: 20%;
+    	height: 12px;
+    	width: 12px;
+    	background-color: #000;
+    	margin-left: 20%;
 }
 								/* botão add carrinho */
 .botao {
