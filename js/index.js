@@ -31,7 +31,7 @@ $(document).ready(function() {
   			var nameCut_1 = $("#product1").text(nameFull_1 + " ..."); 
 
 			$("#product2").text(dado[0].data.recommendation[1].name);
-/*  2 */ 	$("strong:eq(2)").text(dado[0].data.recommendation[1].price);
+/*  2 */ 		$("strong:eq(2)").text(dado[0].data.recommendation[1].price);
   			$("#payments2").text(dado[0].data.recommendation[1].productInfo.paymentConditions);
   			
   			var name_3 = (dado[0].data.recommendation[2].name);
@@ -42,7 +42,7 @@ $(document).ready(function() {
   			var nameCut_3 = $("#product3").text(nameFull_3 + " ..."); 
 
   			$("#product4").text(dado[0].data.recommendation[3].name);
-/*  4 */  	$("strong:eq(4)").text(dado[0].data.recommendation[3].price);
+/*  4 */  		$("strong:eq(4)").text(dado[0].data.recommendation[3].price);
   			$("#payments4").text(dado[0].data.recommendation[3].productInfo.paymentConditions);
 
   			var name_5 = (dado[0].data.recommendation[4].name);
