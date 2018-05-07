@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+								/* topo */
 .header {
 	margin-top: 1%;
+	color: #686666;
 }
+								/* slider */
 #item,.slider {
 	border: solid 1px #ccc;
 	height: 500px;
 	padding-top: 10px;
+}
+img {
+	width: 100%;
+}
+.reticencias {
+	font-family: 'Roboto', sans-serif;
 }
 #div_slide {
 	padding-top: 10px;
@@ -16,26 +27,28 @@ strong {
 .slider {
 	display: block;
 }
+								/* marcadores do slider */
 #bullets {
 	display: flex;
   	flex-direction: row;
   	flex-wrap: nowrap;
   	margin-bottom: 20px;
 }
-.teste{
+.bullet{
   	border-radius: 50%;
-    	height: 12px;
-    	width: 12px;
-    	background-color: #999;
-    	margin-left: 20%;
+    height: 12px;
+    width: 12px;
+    background-color: #999;
+    margin-left: 20%;
 }
 .ativo {
  	border-radius: 50%;
-    	height: 12px;
-    	width: 12px;
-    	background-color: #000;
-    	margin-left: 20%;
+    height: 12px;
+    width: 12px;
+    background-color: #000;
+    margin-left: 20%;
 }
+								/* botão add carrinho */
 .botao {
 	width: 100%;
 	height: 50px;
@@ -51,25 +64,37 @@ strong {
 	cursor: pointer;
 	border-left: solid 10px orange;
 }
-.material-icons {
-	
-}
-@media only screen and (max-width: 540px) { 
-/*	body {
-		background-color: #f99;
-	} */
-	h4 {
-		text-align: center;
-	}
+
+										
+												/*** MEDIA QUERIES ***/
+
+
+@media only screen and (max-width: 576px) {
+
 	#others {
 		margin-top: 115vh;
 	}
-	
 	#item {
 		margin-top: -125vh;
 		height: 500px;
 	}
+	.slider {
+		display: none;
+	}
+}
 
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+
+	h4 {
+		text-align: center;
+	}
+	#others {
+		margin-top: 180vh;
+	}
+	#item {
+		margin-top: -190vh;
+		height: 825px;
+	}
 	.slider {
 		display: none;
 	}
