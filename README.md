@@ -19,6 +19,7 @@
   * Foi utilizado o próprio **carousel** do Bootstrap para gerar o carrossel de imagens.
   * Para adaptação responsiva foi utilizado **medias queries** com breakpoints de **576px** e **768px** de resolução.
   * Não consegui aplicar as fontes *Roboto Condensed Bold* e *Roboto Bold*, não as encontrei no [google fontes](https://fonts.google.com/).
-  * Não implementei a navegação (prev e next) nos marcadores do slide. 
+  * Não implementei a navegação (prev e next) nos marcadores do slide.
+  * Não faz-se necessário nada além de rodar o Html no navegador.
   
-> Gostaria de agradecer pela oportunidade de poder realizar este teste, que foi de grande aprendizado para mim.
+> Gostaria de agradecer pela oportunidade de poder realizar este teste, que foi de grande aprendizado e satisfação para mim.
